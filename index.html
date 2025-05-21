@@ -4,8 +4,102 @@
   <meta charset="UTF-8">
   <title>My Personal Site</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Combined header and hero section -->
+  <header>
+    <!-- Add your picture above the site title -->
+    <img src="me.jpg" alt="A photo of Vanessa" width="400">
+    <!-- Main site title -->
+    <h1>Welcome to Vanessa's Corner of the Internet</h1>
+    <!-- Short welcome message -->
+    <p>Scroll to See What I'm Up To</p>
+  
+  </header>
+
+  <!-- Navigation bar just below the header -->
+  <nav>
+    <!-- Each link goes to a section of your page -->
+    <a href="#bio">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#contact">Contact</a> <!-- Added Contact link -->
+  </nav>
+
+  <!-- Bio section -->
+  <section id="bio">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm Vanessa, a budding web developer. I'm a graduate student of Rowan Univerity with a degree in Political Science, but who says we have to be stuck in one box? I love learning new things and exploring various fields. I'm eager to grow my passion and skills in web development. With my academic background, I bring a unique and analytical perspective to my work. In my free time you'll catch me curled up with a good book, writing my own stories, with friends and family, or planning my next great look. I can't wait to share my journey with you!
+    </p>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <!-- Centered description under the heading -->
+    <p style="text-align: center;">
+      Some things I know... Some things I'm learning
+    </p>
+    <!-- Skills listed horizontally using spans and icons -->
+    <div style="text-align: center; margin-top: 10px;">
+      <!-- HTML skill with icon above the text -->
+      <span style="display: inline-block; margin: 0 15px;">
+        <!-- HTML5 icon from Font Awesome above the text -->
+        <i class="fa-brands fa-html5" style="font-size: 48px; color: #e3e3e3;"></i>
+        <br>
+        HTML
+      </span>
+      <!-- CSS skill with icon above the text -->
+      <span style="display: inline-block; margin: 0 15px;">
+        <!-- CSS3 icon from Font Awesome above the text -->
+        <i class="fa-brands fa-css3-alt" style="font-size: 48px; color: #e3e3e3;"></i>
+        <br>
+        CSS
+      </span>
+    </div>
+  </section>
+
+  <!-- Portfolio section -->
+  <section id="portfolio">
+    <h2>My Projects</h2>
+    <!-- Simple text for "coming soon" without a bullet -->
+    <p>coming soon!</p>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <!-- Friendly message for visitors -->
+    <p style="text-align: center;">don't be a stranger!</p>
+    <!-- Simple contact information with clickable icons for beginners -->
+    <div style="text-align: center; margin-top: 10px;">
+      <!-- Email icon and link -->
+      <a href="mailto:vanessastevenson75@gmail.com" style="color: inherit; text-decoration: none; display: inline-block; margin: 0 15px;">
+        <i class="fa-solid fa-inbox" style="font-size: 32px; color: #e3e3e3;"></i>
+        <br>
+     
+      </a>
+      <!-- GitHub icon and link -->
+      <a href="https://github.com/vanessak03" target="_blank" style="color: inherit; text-decoration: none; display: inline-block; margin: 0 15px;">
+        <i class="fa-brands fa-github" style="font-size: 32px; color: #e3e3e3;"></i>
+        <br>
+    
+      </a>
+      <!-- LinkedIn icon and link -->
+      <a href="https://www.linkedin.com/in/vanessa-stevenson-655111264/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bmqi%2FpMxlQGG9Kr4CSDdtqg%3D%3D" target="_blank" style="color: inherit; text-decoration: none; display: inline-block; margin: 0 15px;">
+        <i class="fa-brands fa-linkedin" style="font-size: 32px; color: #e3e3e3;"></i>
+        <br>
+  
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 [Vanessa Stevenson]. All rights reserved.</p>
+  </footer>
 </body>
 </html>

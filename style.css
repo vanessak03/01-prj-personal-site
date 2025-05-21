@@ -1,1 +1,75 @@
-/* Add you CSS here */
+/* Basic page styles */
+body {
+  font-family: 'Times New Roman', Times, serif; /* Changed to Times New Roman */
+  background-color: #adbd67;      /* Light background color */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center all text on the page */
+}
+
+/* Style for the header */
+header {
+    background-color: rgb(120, 133, 50); /* Header background color */
+    color: rgb(57, 68, 32);              /* Header text color */
+    padding: 160px 0;                    /* Doubled the header area height for a future picture */
+    text-align: center;                  /* Center header text */
+}
+
+/* Make the header text bigger */
+header h1 {
+    font-size: 3em;  /* Large site title */
+    margin: 0;       /* Remove default margin */
+}
+
+/* Add some space between sections */
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(141, 156, 55); /* very light pink */
+    border-radius: 5px;
+    text-align: center; /* Center section text */
+}
+
+/* Style section headings */
+section h2 {
+    color:  rgb(57, 68, 32);
+}
+
+/* Style the skills and portfolio lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    display: inline-block; /* Center the list itself */
+    text-align: left;      /* Keep list items left-aligned for readability */
+}
+
+/* Style for the footer */
+footer {
+    background-color:rgb(120, 133, 50) ;
+    color: rgb(57, 68, 32);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Simple navigation bar styles for beginners */
+nav {
+  background-color: rgb(112, 151, 61); /* Navigation bar background */
+  padding: 10px 0;                    /* Space above and below links */
+  text-align: center;                  /* Center the links */
+}
+
+/* Style for navigation links */
+nav a {
+  color:  rgb(57, 68, 32);              /* Link text color */
+  text-decoration: none;     /* Remove underline from links */
+  margin: 0 15px;            /* Space between links */
+  font-size: 1.1em;          /* Make links a little bigger */
+}
+
+/* Add underline on hover for clarity */
+nav a:hover {
+  text-decoration: underline;
+}
+
